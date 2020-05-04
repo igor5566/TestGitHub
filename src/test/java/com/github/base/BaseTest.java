@@ -1,19 +1,18 @@
 package com.github.base;
 
-import core.driver.DriverManager;
-import core.driver.DriverManagerFactory;
-import core.driver.DriverType;
+import core.driver.browsers.DriverManager;
+import core.driver.browsers.DriverManagerFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 
 public class BaseTest {
 
-    private DriverManager driverManager;
+    private DriverManagerFactory driverManagerFactory;
     private WebDriver driver;
 
-    public WebDriver getDriver(DriverType type) {
-        driverManager = DriverManagerFactory.getDriverManager(type);
-        return this.driver = driverManager.getWebDriver();
+    public WebDriver getDriver() {
+        driverManagerFactory = new DriverManagerFactory();
+        return this.driver = driverManagerFactory.getWebDriver();
     }
 
     public void open(String url) {
@@ -22,6 +21,6 @@ public class BaseTest {
 
     @AfterSuite
     public void threadDown() {
-        driverManager.quitWebDriver();
+        driver.quit();
     }
 }

@@ -1,7 +1,5 @@
 package core.utils;
 
-import core.driver.DriverType;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
@@ -15,25 +13,12 @@ public class MavenUtils {
         return getParameter("pass");
     }
 
-    public static String getUrl() {
-        return getParameter("url");
-    }
+//    public static String getUrl() {
+//        return getParameter("url");
+//    }
 
-    public static DriverType getDriverType() {
-        DriverType driverType;
-        String parameter = getParameter("driver");
-        switch (parameter) {
-            case "IE" :
-                driverType = DriverType.IE;
-                break;
-            case "firefox" :
-                driverType = DriverType.FIREFOX;
-                break;
-            default:
-                driverType = DriverType.CHROME;
-                break;
-        }
-        return driverType;
+    public static String getDriverName() {
+        return getParameter("driver");
     }
 
     private static String getParameter(String propName) {

@@ -21,16 +21,17 @@ public class UITests extends BaseTest {
     private WebDriver driver;
     private LoginPage loginPage;
     private MainPage mainPage;
+    private final String url = "http://github.com/login";
 
     @BeforeTest
     public void setUp(ITestContext context) {
-        driver = getDriver(MavenUtils.getDriverType());
+        driver = getDriver();
         context.setAttribute("webDriver", driver);
     }
 
     @Test(description = "Verify Home page is opened.")
     public void loginTest() {
-        open(MavenUtils.getUrl());
+        open(url);
         loginPage = new LoginPage(driver);
         mainPage = loginPage.logIn(MavenUtils.getEmail(), MavenUtils.getPass());
         log.info("Some info from logger.");
