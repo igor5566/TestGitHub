@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="tests" duration-ms="19471" started-at="2020-05-04T10:22:03Z" finished-at="2020-05-04T10:22:23Z">
+    <groups>
+    </groups>
+    <test name="First" duration-ms="19471" started-at="2020-05-04T10:22:03Z" finished-at="2020-05-04T10:22:23Z">
+      <class name="com.github.tests.UItests.UITests">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.github.tests.UItests.UITests@8b96fde]" name="setUp" is-config="true" duration-ms="9704" started-at="2020-05-04T13:22:03Z" finished-at="2020-05-04T13:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@784b990c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.github.tests.UItests.UITests@8b96fde]" name="loginTest" duration-ms="9401" started-at="2020-05-04T13:22:13Z" description="Verify Home page is opened." finished-at="2020-05-04T13:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="threadDown()[pri:0, instance:com.github.tests.UItests.UITests@8b96fde]" name="threadDown" is-config="true" duration-ms="1834" started-at="2020-05-04T13:22:23Z" finished-at="2020-05-04T13:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threadDown -->
+      </class> <!-- com.github.tests.UItests.UITests -->
+    </test> <!-- First -->
+  </suite> <!-- tests -->
+</testng-results>
