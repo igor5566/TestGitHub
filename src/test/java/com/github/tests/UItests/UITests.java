@@ -33,7 +33,7 @@ public class UITests extends BaseTest {
         open(MavenUtils.getUrl());
         loginPage = new LoginPage(driver);
         mainPage = loginPage.logIn(MavenUtils.getEmail(), MavenUtils.getPass());
-        log.info("Some info");
+        log.info("Some info from logger.");
         assertThat(mainPage.isDashboardVisible()).as("Cannot login into the account.").isTrue();
     }
 }
