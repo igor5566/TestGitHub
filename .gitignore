@@ -5,7 +5,9 @@
 logdebug
 allure-results
 screenshots
-target
+target/test-classes
+target/classes
+target/
 
 # BlueJ files
 *.ctxt
