@@ -6,6 +6,7 @@ logdebug
 allure-results
 screenshots
 target/
+test-output/
 
 # BlueJ files
 *.ctxt
