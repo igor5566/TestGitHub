@@ -1,10 +1,10 @@
 package com.github.tests.UItests;
 
-import core.utils.MavenUtils;
 import com.github.base.BaseTest;
-import core.utils.TestListener;
 import com.github.pages.LoginPage;
 import com.github.pages.MainPage;
+import core.utils.MavenUtils;
+import core.utils.TestListener;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -18,10 +18,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Listeners({TestListener.class})
 public class UITests extends BaseTest {
 
+    private final String url = "http://github.com/login";
     private WebDriver driver;
     private LoginPage loginPage;
     private MainPage mainPage;
-    private final String url = "http://github.com/login";
 
     @BeforeTest
     public void setUp(ITestContext context) {

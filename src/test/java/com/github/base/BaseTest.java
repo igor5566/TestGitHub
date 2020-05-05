@@ -1,6 +1,5 @@
 package com.github.base;
 
-import core.driver.browsers.DriverManager;
 import core.driver.browsers.DriverManagerFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
