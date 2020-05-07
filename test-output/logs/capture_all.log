@@ -1,0 +1,14 @@
+2020-05-04 11:14:27.699 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 11:17:53.858 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 11:32:31.183 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 12:07:02.641 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 12:07:51.737 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 12:08:41.008 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 12:10:58.561 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 12:12:12.684 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 12:13:52.144 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 12:15:09.556 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 12:58:00.864 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 15:36:14.623 [main] INFO  com.github.tests.UItests.UITests:36 - Some info
+2020-05-04 19:13:52.140 [main] INFO  com.github.tests.UItests.UITests:37 - Some info from logger.
+2020-05-04 19:14:13.287 [main] ERROR io.qameta.allure.AllureLifecycle:609 - Could not add attachment: no test is running

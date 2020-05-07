@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [tests]">
+  <listeners>
+    <listener class-name="core.utils.TestListener"/>
+  </listeners>
+  <test name="First">
+    <classes>
+      <class name="com.github.tests.UItests.UITests">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.github.tests.UItests.UITests -->
+    </classes>
+  </test> <!-- First -->
+  <test name="First(failed)">
+    <classes>
+      <class name="com.github.tests.UItests.UITests">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="threadDown"/>
+        </methods>
+      </class> <!-- com.github.tests.UItests.UITests -->
+    </classes>
+  </test> <!-- First(failed) -->
+</suite> <!-- Failed suite [tests] -->
