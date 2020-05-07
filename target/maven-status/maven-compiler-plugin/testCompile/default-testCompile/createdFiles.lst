@@ -1,6 +1,0 @@
-com\github\tests\APItests\APITest.class
-com\github\pages\LoginPage.class
-com\github\tests\UItests\UITests.class
-com\github\base\BasePage.class
-com\github\pages\MainPage.class
-com\github\base\BaseTest.class

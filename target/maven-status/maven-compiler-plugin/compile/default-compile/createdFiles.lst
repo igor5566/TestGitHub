@@ -1,8 +1,0 @@
-com\automation\driver\browsers\IEDriverManager.class
-com\automation\driver\DriverManager.class
-com\automation\driver\browsers\ChromeDriverManager.class
-com\automation\utils\MavenUtils.class
-com\automation\driver\browsers\FireFoxManager.class
-com\automation\driver\DriverManagerFactory.class
-com\automation\driver\DriverType.class
-com\automation\driver\DriverManagerFactory$1.class
